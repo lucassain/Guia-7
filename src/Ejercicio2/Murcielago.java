@@ -1,7 +1,13 @@
-public class Murcielago extends Animal implements iVolador{
+package Ejercicio2;
+
+public class Murcielago extends Animal implements iVolador {
 
     public Murcielago(TipoAnimal tipo, String nombre) {
         super(tipo, nombre);
+    }
+
+    public Murcielago(String nombre) {
+        super(nombre);
     }
 
     public Murcielago() {

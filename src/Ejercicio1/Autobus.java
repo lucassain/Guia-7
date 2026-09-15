@@ -1,12 +1,14 @@
+package Ejercicio1;
+
 import java.util.Scanner;
 
-public class Autobus implements iTransporte{
+public class Autobus implements iTransporte {
     private int numeroLinea;
     private int capacidad;
     private TipoTransporte tipo;
 
     /*Implementa la interfaz Transporte.
-Atributos: numeroLinea (entero), capacidad (entero), tipo (TipoTransporte).
+Atributos: numeroLinea (entero), capacidad (entero), tipo (Ejercicio1.TipoTransporte).
 Métodos: Implementa los métodos definidos en la interfaz y un método adicional para anunciar
 la próxima parada (anunciarParada(String parada)).
 */
@@ -50,7 +52,7 @@ la próxima parada (anunciarParada(String parada)).
 
     @Override
     public String toString() {
-        return "Autobus{" +
+        return "Ejercicio1.Autobus{" +
                 "numeroLinea=" + numeroLinea +
                 ", capacidad=" + capacidad +
                 ", tipo=" + tipo +

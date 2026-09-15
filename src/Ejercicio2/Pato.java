@@ -1,7 +1,13 @@
-public class Pato extends Animal implements iVolador,iNadador{
+package Ejercicio2;
+
+public class Pato extends Animal implements iVolador, iNadador {
 
     public Pato(TipoAnimal tipo, String nombre) {
         super(tipo, nombre);
+    }
+
+    public Pato(String nombre) {
+        super(nombre);
     }
 
     public Pato() {

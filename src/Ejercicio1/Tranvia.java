@@ -1,9 +1,11 @@
+package Ejercicio1;
+
 import java.util.Scanner;
 
-public class Tranvia implements iTransporte{
+public class Tranvia implements iTransporte {
     /*Clase Tranvía:
 Implementa la interfaz Transporte.
-Atributos: ruta (cadena de texto), capacidad (entero), tipo (TipoTransporte).
+Atributos: ruta (cadena de texto), capacidad (entero), tipo (Ejercicio1.TipoTransporte).
 Métodos: Implementa los métodos definidos en la interfaz y un método adicional para
 cambiar de vía (cambiarVia(int nuevaVia)).
 */
@@ -61,7 +63,7 @@ cambiar de vía (cambiarVia(int nuevaVia)).
 
     @Override
     public String toString() {
-        return "Tranvia{" +
+        return "Ejercicio1.Tranvia{" +
                 "ruta='" + ruta + '\'' +
                 ", capacidad=" + capacidad +
                 ", tipo=" + tipo +

@@ -1,3 +1,5 @@
+package Ejercicio1;
+
 public enum TipoTransporte {
 
     AUTOBUS,

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Ejercicio1;
 
 public interface iTransporte {
 

@@ -1,9 +1,15 @@
+package Ejercicio2;
+
 public abstract class Animal{
     private TipoAnimal tipo;
     private String nombre;
 
     public Animal(TipoAnimal tipo, String nombre) {
         this.tipo = tipo;
+        this.nombre = nombre;
+    }
+
+    public Animal(String nombre) {
         this.nombre = nombre;
     }
 

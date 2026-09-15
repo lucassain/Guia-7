@@ -1,10 +1,12 @@
+package Ejercicio1;
+
 import java.util.Scanner;
 
-public class Bicicleta implements iTransporte{
+public class Bicicleta implements iTransporte {
 
-    /*Clase Bicicleta:
+    /*Clase Ejercicio1.Bicicleta:
 Implementa la interfaz Transporte.
-Atributos: numeroSerie (cadena de texto), tipo (TipoTransporte).
+Atributos: numeroSerie (cadena de texto), tipo (Ejercicio1.TipoTransporte).
 Métodos: Implementa los métodos definidos en la interfaz y un
 método adicional para ajustar la altura del asiento (ajustarAsiento(int altura)).
 obtenerCapacidad() devuelve 1 (porque solo tiene capacidad para una persona).
@@ -43,7 +45,7 @@ obtenerCapacidad() devuelve 1 (porque solo tiene capacidad para una persona).
 
     @Override
     public String toString() {
-        return "Bicicleta{" +
+        return "Ejercicio1.Bicicleta{" +
                 "numeroSerie='" + numeroSerie + '\'' +
                 ", tipo=" + tipo +
                 '}';
@@ -51,12 +53,12 @@ obtenerCapacidad() devuelve 1 (porque solo tiene capacidad para una persona).
 
     @Override
     public void arrancar() {
-        System.out.println("La" +tipo+ " arranco");
+        System.out.println("La " +tipo+ " arranco");
     }
 
     @Override
     public void detener() {
-        System.out.println("La" +tipo+ " se detuvo");
+        System.out.println("La " +tipo+ " se detuvo");
     }
 
     @Override
